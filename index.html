@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Calculadora de IMC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Calcule seu IMC!</h1>
+        <h4 class="page-subtitle">
+          Descubra se seu Índice de Massa Corporal (IMC) esta dentro do
+          recomendado pela OMS
+        </h4>
+        <input placeholder="Nome" type="text" id="inputNome" />Nome<br />
+        <input placeholder="Peso" type="number" id="inputPeso" />Peso<br />
+        <input placeholder="Altura" type="number" id="inputAltura" />Altura<br />
+        <button class="submit-button" type="submit" onclick="calculaIMC()">Enviar</button>
+        <h2 class="resultado" id="resultadoIMC"></h2>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

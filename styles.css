@@ -1,0 +1,27 @@
+body {
+  background: #bae8e8;
+  color: black;
+  text-align: center;
+  padding: 80px;
+}
+
+input {
+  padding:10px;
+  border-radius:10px;
+  margin-bottom: 8px;
+  background-color: #e3f6f5;
+  padding: 10px;
+  width:30%;
+}
+
+.submit-button {
+  border: 0;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 5px;
+  background-color: #969bfa;
+}
+
+#resultadoIMC {
+  margin-top: 20px;
+}
