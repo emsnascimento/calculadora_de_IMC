@@ -1,3 +1,3 @@
-# web-platform-gkqkzg
+# Calculadora de IMC
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-gkqkzg)
+Verifique se seu Índice de Massa Corporal (IMC) está dentro do recomendado pela OMS
