@@ -1,27 +1,47 @@
 body {
-  background: #bae8e8;
+  background: white;
   color: black;
   text-align: center;
-  padding: 80px;
+  margin-top: 40px;
 }
 
-input {
-  padding:10px;
-  border-radius:10px;
-  margin-bottom: 8px;
-  background-color: #e3f6f5;
-  padding: 10px;
-  width:30%;
+main{
+  color: black;
+  margin: 0 auto;
+}
+
+fieldset{
+  border: 0;
+  padding: 40px;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 25%;
+}
+
+label{
+  font-weight: bold;
 }
 
 .submit-button {
-  border: 0;
+  background: rgb(139, 205, 228);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
   border-radius: 10px;
-  padding: 12px;
-  margin-top: 5px;
-  background-color: #969bfa;
+  border: none;
+  padding: 15 30;
+  transition: 0.9s all;
+}
+
+.submit-button:hover{
+  background: rgb(81, 197, 236);
+  transform: scale(1.15);
 }
 
 #resultadoIMC {
   margin-top: 20px;
-}
+} 
